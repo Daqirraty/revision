@@ -57,7 +57,7 @@ const handleSubmit = (e) => {
 
 
   return (
-    <div className="text-7xl">
+    <div className={theme === "light" ? "bg-white text-gray-700 h-[100vh]" : "bg-gray-800 text-gray-300 h-[100vh]"}>
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />

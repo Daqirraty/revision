@@ -3,7 +3,7 @@ import { createContext, useState } from "react";
 // creata a store
 export const ThemeStore = createContext();
 const GlobalContext = ({ children }) => {
-  const [theme, setTheme] = useState(true);
+  const [theme, setTheme] = useState("dark");
 
   return (
     <ThemeStore.Provider value={{ theme, setTheme }}>
