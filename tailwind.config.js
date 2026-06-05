@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+    display: ["group-hover"],
+      // screens: {
+      //   'lg': '1024px',
+      //   'md': '768px',
+      //   'sm': '640px',
+      // }
+    },
   },
   plugins: [],
 }
