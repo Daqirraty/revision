@@ -1,6 +1,5 @@
-import Contact from "./contact"
 
-const About = ({}) => {
+const About = () => {
   return (
     <>
     <div>About</div>
